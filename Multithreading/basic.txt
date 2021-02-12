@@ -1,0 +1,33 @@
+Multitasking -- In computing, multitasking is the concurrent execution of multiple tasks 
+(also known as processes) over a certain period of time.
+
+Two types of multitasking:--> 1. Process based multitasking a
+                              2. Thread based multitasking
+
+1 . Process based multitasking --> Executing several tasks independently where each task is a seperate process
+for eg. our computer system. os level
+
+2. Thread based multitasking --> Executing several tasks simultaneously, 
+where each task is a seperate independent part of the same program, and each independently part is know as thread.
+
+Note: Whether it is process based or thread based, the main advantage of multi tasking is
+to improve performance of the system by reducing response time.
+
+The main important application areas of multi threading are:
+1) To implement Multimedia graphics
+2) To develop animations
+3) To develop video games
+4) To develop web and application servers
+etc...
+
+Note: Where ever a group of independent jobs are available, then it is highly
+recommended to execute simultaneously instead of executing one by one.For such type of
+cases we should go for Multi Threading.
+
+Python provides one inbuilt module "threading" to provide support for developing
+threads. Hence developing multi threaded Programs is very easy in python.
+
+Every Python Program by default contains one thread which is nothing but MainThread.
+
+
+
