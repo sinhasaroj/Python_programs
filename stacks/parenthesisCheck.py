@@ -34,11 +34,42 @@ class Stack:
 
 s = Stack()
 
-exp = "{}(){[]}(}"
+exp = "{}(){[]}(}"  # returns False
 
 if s.check(exp):
     print("Balanaced Expression")
 else:
     print("Unbalanced Expression.")
+
+
+# Another Approach:
+
+# def isValid(exp):
+    
+#     stack = []
+#     opening = '({['
+#     closing = ')}]'
+
+#     for char in exp:
+#         if char in opening:
+#             stack.append(char)
+        
+#         if char in closing:
+#             if len(stack) == 0:
+#                 return False
+
+#             elif closing.index(char) != opening.index(stack.pop()):
+#                 return False
+
+#     return len(stack) == 0
+
+# exp = '()' returns True
+
+# print(isValid(exp))
+
+
+
+
+
 
 
